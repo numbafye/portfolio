@@ -6,20 +6,23 @@ li {
 .container {
     display: grid;
     grid-template-columns: 200px 400px 400px;
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap: 20px;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 100px;
    
     margin: 50px
 }
 
 .pic {
     height: 300px;
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
+    border: 3px solid black;
+    
 }
 
 .description {
     border: 2px solid black;
+    grid-column: 2 / 4;
 }
 
 .info {
