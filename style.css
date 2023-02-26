@@ -7,7 +7,7 @@ li {
     display: grid;
     grid-template-columns: 200px 400px 400px;
     grid-template-rows: 300px 300px 300px;
-    grid-gap: 100px;
+    grid-gap: 70px;
    
     margin: 50px
 }
