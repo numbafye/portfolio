@@ -1,5 +1,50 @@
+li {
+    display: inline-flex;
+
+}
+
 .container {
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 200px 400px 400px;
+    grid-gap: 20px;
+   
+    margin: 50px
 }
+
+.pic {
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.description {
+
+}
+
+.info {
+    
+}
+
+.mail {
+
+}
+
+.project {
+
+}
+
+.tech {
+
+}
+
+
+
+@media (max-width: 768px) {
+
+}
+
+
+
+
+
+
