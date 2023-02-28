@@ -52,15 +52,11 @@ li {
 }
 
 button {
-    border: none;
-    background-color: white;
-    color: blue;
-    outline: none;
-   
+  border: none;
+  background-color: white;
+  color: blue;
+  outline: none;
 }
-
 
 @media (max-width: 768px) {
 }
-
-

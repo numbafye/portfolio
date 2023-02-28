@@ -1,3 +1,4 @@
+//extend about text to overflow in text box.
 function readMore() {
   let dots = document.getElementById("dots");
   let moreText = document.getElementById("more");
@@ -17,3 +18,6 @@ function readMore() {
     moreText.style.display = "inline";
   }
 }
+
+//Create a function that will show one project at a time and have arrows to cycle through the 3 projects.
+
