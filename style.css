@@ -1,58 +1,49 @@
 li {
-    display: inline-flex;
-
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 200px 400px 400px;
-    grid-template-rows: 300px 300px 300px;
-    grid-gap: 70px;
-   
-    margin: 50px
+  display: grid;
+  grid-template-columns: 200px 400px 400px;
+  grid-template-rows: 300px 300px 300px;
+  grid-gap: 100px;
+  text-align: center;
+  margin: auto;
+  margin-left: 250px;
 }
 
 .pic {
-    height: 300px;
-    width: 250px;
-    border-radius: 50%;
-    border: 3px solid black;
-    
+  height: 300px;
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-top: 150px;
 }
 
 .description {
-    border: 2px solid black;
-    grid-column: 2 / 4;
+  grid-column: 2 / 4;
 }
 
 .info {
-    border: 2px solid black;
+  grid-column: 2 / 3;
 }
 
 .contact {
-    border: 2px solid black;
 }
 
 .mail {
-    border: 2px solid black;
 }
 
 .project {
-    border: 2px solid black;
+  grid-column: 1 / 3;
 }
 
 .tech {
-    border: 2px solid black;
 }
-
-
 
 @media (max-width: 768px) {
-
 }
 
-
-
-
-
-
+.sub {
+}
