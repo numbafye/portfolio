@@ -20,4 +20,3 @@ function readMore() {
 }
 
 //Create a function that will show one project at a time and have arrows to cycle through the 3 projects.
-
