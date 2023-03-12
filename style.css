@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   display: inline-flex;
   flex-direction: column;
@@ -5,12 +10,11 @@ li {
 
 .container {
   display: grid;
-  grid-template-columns: 200px 400px 400px;
-  grid-template-rows: 300px 300px 300px;
-  grid-gap: 100px;
+  grid-template-columns: 10vw 20vw 20vw;
+  grid-template-rows: 30vh 30vh 30vh;
+  grid-gap: 10vw;
   text-align: center;
-  margin: auto;
-  margin-left: 250px;
+  padding-left: 10vw;
 }
 
 .pic {
@@ -22,7 +26,11 @@ li {
 }
 
 .description {
-  grid-column: 2 / 4;
+  grid-column: 2 / span 3;
+  grid-row: 1 / 1;
+  
+  padding: 0;
+  
 }
 
 .info {
@@ -59,4 +67,32 @@ button {
 }
 
 @media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+  display: grid;
+  grid-template-columns: 5vw 10vw;
+  grid-template-rows: 30vh 30vh 30vh;
+  grid-row-gap: 20vw;
+  grid-column-gap: 10vh;
+  
+  text-align: center;
+  padding-bottom: 50vh;
+}
+
+ .pic {
+   grid-column: 2 / 3;
+
+ }
+
+ .description {
+  grid-column: 1 / span 3;
+  grid-row: 2 / 2;
+  
+  padding: 0;
+  
+}
 }
