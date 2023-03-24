@@ -17,9 +17,6 @@ li {
   padding-left: 10vw;
 }
 
-.overlay-image {
-}
-
 .pic {
   height: 35vh;
   width: 20vw;
@@ -90,7 +87,6 @@ li {
     grid-template-rows: 30vh 30vh 30vh;
     grid-row-gap: 10vw;
     grid-column-gap: 5vh;
-
     text-align: center;
     padding-bottom: 10vh;
     padding-left: 1em;
