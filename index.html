@@ -19,14 +19,17 @@
     <nav>
       <ul class="hlinks">
         <li><a href="https://github.com/numbafye">My Github</a></li>
-        <li><a href="https://www.linkedin.com/in/saadiqpowell/">My Linkedin</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/saadiqpowell/">My Linkedin</a>
+        </li>
       </ul>
     </nav>
 
-    <div class="container1">
+    <main class="container1">
       <img class="pic" src="http://placekitten.com/200/300" />
 
-      <div class="description">
+<!-- NAME AND TITLE -->
+      <section class="me">
         <h1>Saadiq Powell</h1>
         <br />
         <h2>Front End Developer</h2>
@@ -35,8 +38,9 @@
           “A man is but the product of his thoughts. What he thinks, he
           becomes.” ― Mahatma Gandhi
         </h4>
-      </div>
-      <div class="info">
+      </section>
+<!-- BIO -->
+      <section class="info">
         <h2>About</h2>
         <p>
           I was first introduced to coding through a mobile game called 'Graal'
@@ -59,10 +63,11 @@
             family's lives. Hope you enjoyed my portfolio! Have a blessed day.
           </span>
         </p>
-        <button onclick="readMore()" id="myBtn">Read more</button>
-      </div>
-
-      <div class="tech">
+        <!-- read more btn function -->
+        <button onclick="readMore()" id="textBtn">Read more</button>
+      </section>
+<!-- TECH SKILLS -->
+      <section class="tech">
         <h2>Tech Stack</h2>
         <h4>HMTL</h4>
         <h4>CSS</h4>
@@ -70,76 +75,15 @@
         <h4>BOOTSTRAP</h4>
         <h4>GIT</h4>
         <h4>NODE JS</h4>
-      </div>
-
+      </section>
+<!-- PROJECT CAROUSEL -->
       <div class="project">
         <h2>Projects</h2>
 
-        <div
-          id="myCarousel"
-          class="carousel slide carousel-fade"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="overlay-image"></div>
-              <div class="container">
-                <h2>Maze Game</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore
-                </p>
-                <a href="#" class="btn">Read description</a>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="container">
-                <h2>Rest-rant</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore
-                </p>
-                <a href="#" class="btn">Read description</a>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="container">
-                <h2>Scales</h2>
-                <p>Coming Soon...</p>
-                <a href="#" class="btn">Read description</a>
-              </div>
-            </div>
-          </div>
-
-          <a
-            class="carousel-control-prev"
-            href="#myCarousel"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#myCarousel"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
       </div>
 
-      <div class="contact">
+<!-- CONTACT SEND EMAIL -->
+       <div class="contact">
         <h2>Contact</h2>
 
         <form
@@ -149,6 +93,7 @@
           method="POST"
         >
           <div class="form-group">
+<!-- CLASS FOR NAME AND EMAIL IN A ROW BELOW (ADJUST WIDTH OF FORM GROUPS) -->
             <div class="form-row">
               <div class="col">
                 <input
@@ -180,27 +125,13 @@
             ></textarea>
           </div>
           <button type="submit" class="btn btn-sm btn-dark btn-block">
-            Submit Form
+            Send Email
           </button>
         </form>
       </div>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
+
+ 
   </body>
 </html>
