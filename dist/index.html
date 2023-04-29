@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Saadiq's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="hlinks">
+        <li><a href="https://github.com/numbafye">My Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/saadiqpowell/">My Linkedin</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container1">
+      <img alt="kity" class="pic" src="http://placekitten.com/200/300" />
+
+<!-- NAME AND TITLE -->
+      <section class="me">
+        <h1>Saadiq Powell</h1>
+        <h2>Front End Developer</h2>
+        <br />
+        <h4>
+          “A man is but the product of his thoughts. What he thinks, he
+          becomes.” ― Mahatma Gandhi
+        </h4>
+      </section>
+<!-- BIO -->
+      <section class="info">
+        <h2>About</h2>
+        <p>
+          I was first introduced to coding through a mobile game called 'Graal'
+          where I would write HTML tags and CSS properties into my bio so it
+          would look cooler than everyone else's. I learned it by googling how
+          other players would do it but never tried to use those codes outside
+          of the game. A few years later I practiced coding during the beginning
+          of the pandemic when I found out that Harvard had free online software
+          development classes. However, it wasn't until I enrolled into NJIT's
+          software development program that I started taking coding
+          seriously.<span id="dots">..</span
+          ><span id="more">
+            The courses really pushed me to my limits and taught me a lot about
+            myself as well as a multitude of languages, frameworks, databases
+            and architectural designs of websites. I am currently learning how
+            to become more skilled in react and SASS. Outside of frontend
+            development I enjoy playing my instruments and producing music,
+            trying new restaurants and skateboarding. I strive towards bettering
+            my skills everyday so that I can make an impact in me and my
+            family's lives. Hope you enjoyed my portfolio! Have a blessed day.
+          </span>
+        </p>
+        <!-- read more btn function -->
+        <button onclick="readMore()" id="textBtn">Read more</button>
+      </section>
+<!-- TECH SKILLS -->
+      <section class="tech">
+        <h2>Tech Stack</h2>
+        <h4>HMTL</h4>
+        <h4>CSS</h4>
+        <h4>JAVASCRIPT</h4>
+        <h4>BOOTSTRAP</h4>
+        <h4>GIT</h4>
+        <h4>NODE JS</h4>
+      </section>
+<!-- PROJECT CAROUSEL -->
+      <div class="project">
+        <h2>Projects</h2>
+
+      </div>
+
+<!-- CONTACT SEND EMAIL -->
+       <div class="contact">
+        <h2>Contact</h2>
+
+        <form
+          class="sub"
+          target="_blank"
+          action="https://formsubmit.co/el/puhayi"
+          method="POST"
+        >
+          <div class="form-group">
+<!-- CLASS FOR NAME AND EMAIL IN A ROW BELOW (ADJUST WIDTH OF FORM GROUPS) -->
+            <div class="form-row">
+              <div class="col">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea
+              placeholder="Your Message"
+              class="form-control"
+              name="message"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-sm btn-dark btn-block">
+            Send Email
+          </button>
+        </form>
+      </div>
+    </div>
+
+<script src="./js/index.js"></script>
+ 
+  </body>
+</html>
