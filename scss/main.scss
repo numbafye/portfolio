@@ -33,15 +33,24 @@ nav {
     }
 }
 
+h1 {
+    text-align: center;
+    padding-right: 5em;
+}
+
+.job-title {
+    padding-left: 4em;
+}
+
 .container-fluid {
 
 }
 
 section {
-
+    padding: 5em;
 }
 
-h2 {
+h2, h4 {
     text-align: center;
 }
 //name and quote

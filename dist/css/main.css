@@ -31,7 +31,20 @@ nav a:hover, nav a:focus {
   color: rgba(75, 246, 127, 0.8862745098);
 }
 
-h2 {
+h1 {
+  text-align: center;
+  padding-right: 5em;
+}
+
+.job-title {
+  padding-left: 4em;
+}
+
+section {
+  padding: 5em;
+}
+
+h2, h4 {
   text-align: center;
 }
 
