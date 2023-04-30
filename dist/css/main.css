@@ -1,0 +1,16 @@
+@import url("");
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: rgba(75, 246, 127, 0.8862745098);
+}
+
+/* CONTACT WIDTH */
+.sub {
+  width: 40em;
+}/*# sourceMappingURL=main.css.map */

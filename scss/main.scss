@@ -1,12 +1,39 @@
 @import './variables';
+@import './reset';
+@import './mixins';
+@import url('');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+    background-color: $color-background;
+    color: $color-primary;
 }
+
+.container-fluid {
+
+}
+//name q
+.me {
+    
+}
+
+.bio {
+
+}
+
+.tech {
+
+}
+
+.project {
+
+}
+
+.contact {
+
+}
+
 
 /* CONTACT WIDTH */
 .sub {
-    width: 50em;
+    width: 40em;
 }
