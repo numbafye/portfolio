@@ -1,17 +1,50 @@
 @import './variables';
 @import './reset';
 @import './mixins';
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&display=swap');
+
+hr {
+    background-color: $color-primary;
+    margin-inline: 1em;
+    opacity: .5;
+}
 
 body {
     background-color: $color-background;
     color: $color-primary;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-inline: 2em
+    }
+    
+    a {
+        text-decoration: none;
+        color: $color-secondary;
+
+        &:hover, &:focus {
+            color: $color-primary;
+        }
+    }
 }
 
 .container-fluid {
 
 }
-//name q
+
+section {
+
+}
+
+h2 {
+    text-align: center;
+}
+//name and quote
 .me {
     
 }
@@ -20,8 +53,35 @@ body {
 
 }
 
-.tech {
+#textBtn {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: rgb(192, 40, 192);
+}
 
+@keyframes fade {
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    h4 {
+        text-align: center;       
+        border-right: $color-primary 1px solid;
+        border-bottom: $color-primary 1px solid;
+        border-radius: 1em;
+        width: 10em;
+        margin: 10px;
+        animation: fade 1s infinite alternate;
+    }
 }
 
 .project {
@@ -36,4 +96,5 @@ body {
 /* CONTACT WIDTH */
 .sub {
     width: 40em;
+    margin-inline: auto;
 }

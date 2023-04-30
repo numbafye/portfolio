@@ -1,16 +1,75 @@
-@import url("");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&display=swap");
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+hr {
+  background-color: rgba(75, 246, 127, 0.8862745098);
+  margin-inline: 1em;
+  opacity: 0.5;
+}
+
 body {
   background-color: #000000;
   color: rgba(75, 246, 127, 0.8862745098);
+  font-family: "Raleway", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-inline: 2em;
+}
+nav a {
+  text-decoration: none;
+  color: #e2fcf3;
+}
+nav a:hover, nav a:focus {
+  color: rgba(75, 246, 127, 0.8862745098);
+}
+
+h2 {
+  text-align: center;
+}
+
+#textBtn {
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  color: rgb(192, 40, 192);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tech h4 {
+  text-align: center;
+  border-right: rgba(75, 246, 127, 0.8862745098) 1px solid;
+  border-bottom: rgba(75, 246, 127, 0.8862745098) 1px solid;
+  border-radius: 1em;
+  width: 10em;
+  margin: 10px;
+  animation: fade 1s infinite alternate;
 }
 
 /* CONTACT WIDTH */
 .sub {
   width: 40em;
+  margin-inline: auto;
 }/*# sourceMappingURL=main.css.map */

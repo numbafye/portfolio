@@ -1,14 +1,15 @@
 $color-primary: #4bf67fe2;
-$color-secondary: #e2fcfa; 
+$color-secondary: #e2fcf3; 
 $color-background: #000000;
 
 $fontsize: (
-    "normal": 1em,
-    "large": 1.4em,
+    "text": 1em,
+    "title": 1.4em,
     "header": 2em
 );
 
 $fontweight: (
+    "light": 200,
     "regular": 400,
     "medium": 500,
     "bold": 700
