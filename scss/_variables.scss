@@ -2,10 +2,15 @@ $color-primary: #4bf67fe2;
 $color-secondary: #e2fcf3; 
 $color-background: #000000;
 
+$mobile: (
+    "iphone": 375px,
+
+);
+
 $fontsize: (
-    "text": 1em,
-    "title": 1.4em,
-    "header": 2em
+    "text": 1rem,
+    "title": 1.4rem,
+    "header": 2rem
 );
 
 $fontweight: (

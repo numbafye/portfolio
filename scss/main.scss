@@ -13,6 +13,10 @@ body {
     background-color: $color-background;
     color: $color-primary;
     font-family: 'Raleway', sans-serif;
+
+    h2 {
+        text-align: center;
+    }
 }
 
 nav {
@@ -33,28 +37,17 @@ nav {
     }
 }
 
-h1 {
-    text-align: center;
-    padding-right: 5em;
-}
-
-.job-title {
-    padding-left: 4em;
-}
-
 .container-fluid {
 
 }
 
 section {
-    padding: 5em;
+    padding: 1em;
 }
 
-h2, h4 {
-    text-align: center;
-}
 //name and quote
 .me {
+    text-align: center;
     
 }
 
