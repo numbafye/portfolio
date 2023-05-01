@@ -22,12 +22,9 @@ function readMore() {
 //carousel function
 //Create a function that will show one project at a time and have arrows to cycle through the 3 projects.
 
-//Skills glow intervals
-//delay works but setting it to all elements in tech-stack not working
+//Skills glow
 const glow = document.querySelectorAll(".tech-stack");
-
 //stops animation then after delay animation resumes on all elements. better way is to do invidual delay times for different affect.
-
 glow.forEach(function aniD(el, index) {
   setTimeout(function aniD() {
     el.style.animationDelay = "12s";
