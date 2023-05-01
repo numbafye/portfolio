@@ -16,6 +16,7 @@ body {
 
     h2 {
         text-align: center;
+        padding-bottom: 1em;
     }
 }
 
@@ -42,7 +43,7 @@ nav {
 }
 
 section {
-    padding: 1em;
+    margin: 5em;
 }
 
 //name and quote
@@ -52,7 +53,6 @@ section {
 }
 
 .bio {
-
 }
 
 #textBtn {
@@ -69,6 +69,10 @@ section {
     to {opacity: 1;}
 }
 
+.tech-container {
+
+}
+
 .tech {
     display: flex;
     flex-direction: row;
@@ -83,6 +87,7 @@ section {
         width: 10em;
         margin: 10px;
         animation: fade 1s infinite alternate;
+        animation-delay: 1s;
     }
 }
 
@@ -97,6 +102,5 @@ section {
 
 /* CONTACT WIDTH */
 .sub {
-    width: 40em;
     margin-inline: auto;
 }

@@ -21,3 +21,19 @@ function readMore() {
 
 //carousel function
 //Create a function that will show one project at a time and have arrows to cycle through the 3 projects.
+
+//Skills glow intervals
+//delay works but setting it to all elements in tech-stack not working
+const glow = document.querySelectorAll(".tech-stack");
+
+for (let index = 0; index < glow.length; index++) {
+  const glowItems = glow[index];
+
+  function aniD() {
+    if (glowItems) {
+      glowItems.style.animationDelay = "2s";
+    }
+  }
+}
+
+aniD();

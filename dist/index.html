@@ -25,7 +25,7 @@
           <a href="https://www.linkedin.com/in/saadiqpowell/">Linkedin</a>
         </li>
         <li><a href="#project-carousel">Projects</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#contact-form">Contact</a></li>
     
       </ul>
     </nav>
@@ -34,24 +34,22 @@
       <section class="me">
         <h1>< Saadiq-<span class="lName">Powell ></span></h1>
         <br>
-        <h1>< /Front-End-Developer></h1>
-       
+        <h2>< /Front-End-Developer></h1>
       </section>
 <hr>
     <main class="container-fluid">
 <!-- BIO -->
-<div class="bio-tech">
-  <section class="bio">
-    <p>
-      I was first introduced to coding through a mobile game called 'Graal'
-      where I would write HTML tags and CSS properties into my bio so it
-      would look cooler than everyone else's. However, it wasn't until I enrolled into NJIT's
-      software development program that I started taking coding
-      seriously.<span id="dots">..</span
-        ><span id="more">
-          The courses really pushed me to my limits and taught me a multitude of languages, frameworks, databases
-          and architectural designs of websites. I am currently learning how
-          to become more skilled in React and SASS. Outside of frontend
+<section class="bio">
+  <p>
+    I was first introduced to coding through a mobile game called 'Graal'
+    where I would write HTML tags and CSS properties into my bio so it
+    would look cooler than everyone else's. However, it wasn't until I enrolled into NJIT's
+    software development program that I started taking coding
+    seriously.<span id="dots">..</span
+      ><span id="more">
+        The courses really pushed me to my limits and taught me a multitude of languages, frameworks, databases
+        and architectural designs of websites. I am currently learning how
+        to become more skilled in React and SASS. Outside of frontend
             development I enjoy playing my instruments and producing music,
             trying new restaurants and skateboarding. I strive towards bettering
             my skills everyday so that I can make an impact in me and my
@@ -61,33 +59,37 @@
         <!-- read more btn function -->
         <button onclick="readMore()" id="textBtn">Read more</button>
       </section>
-
-    <hr>
+      
+      <hr>
       <!-- TECH SKILLS -->
+    <section class="tech-container">
       <h2>Skills</h2>
-      <section class="tech">
-        <h4>HMTL</h4> 
-        <h4>CSS</h4>
-        <h4>SASS</h4>
-        <h4>JAVASCRIPT</h4>
-        <h4>BOOTSTRAP</h4>
-        <h4>GIT</h4>
-        <h4>NODE JS</h4>
-      </section>
-    </div>
+      <div class="tech">
+        <h4 class="tech-stack">HMTL</h4> 
+        <h4 class="tech-stack">CSS</h4>
+        <h4 class="tech-stack">JAVASCRIPT</h4>
+        <h4 class="tech-stack">SASS</h4>
+        <h4 class="tech-stack">BOOTSTRAP</h4>
+        <h4 class="tech-stack">GIT</h4>
+        <h4 class="tech-stack">NODE JS</h4>
+      </div>
+    </section>
 
     <hr>
       <!-- PROJECT CAROUSEL -->
-      <div class="project" id="project-carousel">
+      <section class="project" id="project-carousel">
         <h2>Projects</h2>
-
-      </div>
+        <h4>Maze Game</h4>
+        <h4>Restaurant-app</h4>
+        <h4>Scales</h4>
+      </section>
   <hr>
 <!-- CONTACT SEND EMAIL -->
-       <div class="contact">
+       <section class="contact">
         <h2>Contact</h2>
 
         <form
+          id="contact-form"
           class="sub"
           target="_blank"
           action="https://formsubmit.co/el/puhayi"
@@ -129,7 +131,7 @@
             Send Email
           </button>
         </form>
-      </div>
+      </section>
     </div>
 
 <script src="./js/index.js"></script>
