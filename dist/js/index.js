@@ -26,14 +26,11 @@ function readMore() {
 //delay works but setting it to all elements in tech-stack not working
 const glow = document.querySelectorAll(".tech-stack");
 
-for (let index = 0; index < glow.length; index++) {
-  const glowItems = glow[index];
+//stops animation then after delay animation resumes on all elements. better way is to do invidual delay times for different affect.
 
-  function aniD() {
-    if (glowItems) {
-      glowItems.style.animationDelay = "2s";
-    }
-  }
-}
-
-aniD();
+glow.forEach(function aniD(el, index) {
+  setTimeout(function aniD() {
+    el.style.animationDelay = "12s";
+    console.log(el);
+  }, index * 2000);
+});
