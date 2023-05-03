@@ -21,18 +21,38 @@ body h2 {
   padding-bottom: 1em;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: transparent;
+  transition: background-color 200ms linear;
+}
 nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding-inline: 2em;
+  margin: 0;
 }
 nav a {
   text-decoration: none;
-  color: #e2fcf3;
+  color: rgb(192, 40, 192);
+  transition: color 400ms linear;
 }
 nav a:hover, nav a:focus {
   color: rgba(75, 246, 127, 0.8862745098);
+  transition: color 150ms linear;
+}
+
+.nav-active {
+  background-color: #000000;
+  transition: background-color 150ms linear;
+}
+.nav-active a {
+  color: white;
+  transition: color 400ms linear;
 }
 
 section {

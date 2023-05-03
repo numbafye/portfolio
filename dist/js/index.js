@@ -28,6 +28,19 @@ const glow = document.querySelectorAll(".tech-stack");
 glow.forEach(function aniD(el, index) {
   setTimeout(function aniD() {
     el.style.animationDelay = "12s";
-    console.log(el);
   }, index * 2000);
 });
+
+//NAVBAR SCROLL TRANSITION get navbar and y position of window to affect it on scroll.
+const navbar = document.querySelector("nav");
+
+window.onscroll = () => {
+  //if y axis scroll is pass/greater than 20px (down)
+  if (window.scrollY > 20) {
+    navbar.classList.add("nav-active");
+  } else {
+    navbar.classList.remove("nav-active");
+  }
+};
+
+console.log(navbar);

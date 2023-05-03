@@ -21,20 +21,44 @@ body {
 }
 
 nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+    transition: background-color 200ms linear;
+
     ul {
         display: flex;
         justify-content: space-between;
         list-style: none;
-        padding-inline: 2em
+        padding-inline: 2em;
+        margin: 0;
     }
     
     a {
         text-decoration: none;
-        color: $color-secondary;
+        color: rgb(192, 40, 192);
+        transition: color 400ms linear;
+
 
         &:hover, &:focus {
             color: $color-primary;
+            transition: color 150ms linear;
+
         }
+    }
+}
+
+.nav-active {
+    background-color: $color-background;
+    transition: background-color 150ms linear;
+    
+
+    a 
+    {
+        color: white;
+        transition: color 400ms linear;
     }
 }
 
