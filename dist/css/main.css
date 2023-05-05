@@ -22,6 +22,7 @@ body h2 {
 }
 
 nav {
+  padding-block: 0.5em;
   position: fixed;
   width: 100%;
   top: 0;
@@ -76,10 +77,10 @@ section {
 
 @keyframes fade {
   from {
-    opacity: 0.5;
+    opacity: 1;
   }
   to {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .tech {
@@ -102,7 +103,6 @@ section {
   display: flex;
 }
 
-/* CONTACT WIDTH */
-.sub {
+.contact .sub {
   margin-inline: auto;
 }/*# sourceMappingURL=main.css.map */
