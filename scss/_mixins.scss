@@ -1,0 +1,16 @@
+// md for header and menu burger
+// sm for .bio and contact
+
+@mixin media-query($break-point) {
+    @if $break-point== lg {
+      @media (max-width: 1250px) { @content }
+    }
+    @if $break-point== md {
+      @media (max-width: 540px) { @content }
+    } 
+    @if $break-point== sm {
+      @media (max-width: 475px) { @content }
+    }
+    
+  };
+

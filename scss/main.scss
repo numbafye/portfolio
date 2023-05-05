@@ -53,17 +53,11 @@ nav {
 .nav-active {
     background-color: $color-background;
     transition: background-color 150ms linear;
-    
-
     a 
     {
         color: white;
         transition: color 400ms linear;
     }
-}
-
-.container-fluid {
-
 }
 
 section {
@@ -73,10 +67,12 @@ section {
 //name and quote
 .me {
     text-align: center;
-    
 }
 
 .bio {
+    @include media-query(sm){
+
+    }
 }
 
 #textBtn {
@@ -86,15 +82,13 @@ section {
     margin: auto;
     background-color: black;
     color: rgb(192, 40, 192);
+    outline: none;
+    border: none;
 }
 
 @keyframes fade {
     from {opacity: 0.5;}
     to {opacity: 1;}
-}
-
-.tech-container {
-
 }
 
 .tech {
@@ -117,10 +111,15 @@ section {
 
 .project {
 
+    #project-carousel {
+        display: flex;
+    }
 }
 
 .contact {
+    @include media-query(sm){
 
+    }
 }
 
 

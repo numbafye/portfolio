@@ -6,16 +6,26 @@ function readMore() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.style.border = "none";
-    btnText.style.outline = "none";
     btnText.innerHTML = "Read more";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.style.border = "none";
-    btnText.style.outline = "none";
     btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
+  }
+}
+
+//TYPEWRITER EFFECT on READ MORE
+let i = 0;
+const txt =
+  "The courses really pushed me to my limits and taught me a multitude of languages, frameworks, databases and architectural designs of websites. I am currently learning how to become more skilled in React and SASS. Outside of frontend development I enjoy playing my instruments and producing music, trying new restaurants and skateboarding. I strive towards bettering my skills everyday so that I can make an impact in me and my family's lives. Hope you enjoy my portfolio! Have a blessed day."; /* The text */
+const speed = 30; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("more").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
   }
 }
 

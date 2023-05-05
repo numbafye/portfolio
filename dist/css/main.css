@@ -70,6 +70,8 @@ section {
   margin: auto;
   background-color: black;
   color: rgb(192, 40, 192);
+  outline: none;
+  border: none;
 }
 
 @keyframes fade {
@@ -94,6 +96,10 @@ section {
   width: 10em;
   margin: 10px;
   animation: fade 1s infinite alternate;
+}
+
+.project #project-carousel {
+  display: flex;
 }
 
 /* CONTACT WIDTH */
