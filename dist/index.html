@@ -13,13 +13,14 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Saadiq's Portfolio</title>
   </head>
   <body>
     
     <nav>
-      <ul class="hlinks">
+      <ul>
         <li><a href="https://github.com/numbafye">Github</a></li>
         <li>
           <a href="https://www.linkedin.com/in/saadiqpowell/">Linkedin</a>
@@ -72,11 +73,39 @@
       <!-- PROJECT CAROUSEL -->
       <section class="project">
         <h2>Projects</h2>
-        <div id="project-carousel">
-        <
-          <h4>Maze Game</h4>
-          <h4>Restaurant-app</h4>
-          <h4>Scales</h4>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                  <div class="card-image">
+                    Checker's
+                  </div>  
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                  <div class="card-image">
+                    Restaurant-App
+                  </div>  
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                  <div class="card-image">
+                    Scale's
+                  </div>  
+              </div>
+
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>          
         </div>
       </section>
   <hr>
@@ -130,7 +159,9 @@
       </section>
     </div>
     </main>
-<script src="./js/index.js"></script>
- 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+
   </body>
 </html>

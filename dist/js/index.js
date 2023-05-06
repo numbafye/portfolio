@@ -29,8 +29,24 @@ function typeWriter() {
   }
 }
 
-//carousel function
-//Create a function that will show one project at a time and have arrows to cycle through the 3 projects.
+// SWIPER JS CAROUSEL FOR PROJECTS
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 25,
+  loop: true,
+  centerSlide: true,
+  grabCursor: true,
+  fade: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
 //Skills glow
 const glow = document.querySelectorAll(".tech-stack");
