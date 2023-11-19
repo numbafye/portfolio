@@ -43,7 +43,7 @@ nav {
 
   a {
     text-decoration: none;
-    color: rgb(192, 40, 192);
+    color: white;
     transition: color 400ms linear;
 
     &:hover,
@@ -83,7 +83,7 @@ section {
   width: 100%;
   margin: auto;
   background-color: black;
-  color: rgb(192, 40, 192);
+  color: white;
   outline: none;
   border: none;
 }
